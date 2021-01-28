@@ -3,3 +3,60 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  padding: 0 10px;
+}
+
+/* left */
+.left {
+  padding: 10px;
+}
+
+/* middle */
+.link_block {
+  display: flex;
+  list-style-type: none;
+}
+
+.link {
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.link:hover {
+  font-size: 20px;
+  color: tomato;
+}
+
+/* right */
+.right {
+  position: relative;
+}
+
+.right > :first-child {
+  padding: 10px;
+  border-radius: 20px;
+  height: 35px;
+}
+
+.right > :last-child {
+  position: absolute;
+  z-index: 99;
+  right: 10%;
+  top: 20%;
+  font-size: 20px;
+  background: transparent;
+  border: none;
+}
+
+.right > :last-child:hover {
+  color: tomato;
+  font-size: 22px;
+}

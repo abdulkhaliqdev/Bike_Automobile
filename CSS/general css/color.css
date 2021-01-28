@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.bg_color {
+  background-color: black;
+}
+
+.white_color {
+  color: whitesmoke;
+}
+
+.fredoka {
+  font-family: 'Fredoka One', cursive; 
+}
